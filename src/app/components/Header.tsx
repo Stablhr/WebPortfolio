@@ -41,7 +41,7 @@ export function Header() {
               }}
               transition={{ duration: 2, repeat: Infinity }}
             >
-              Folkblex
+              Aries S.
             </motion.span>
           </motion.div>
           
@@ -75,7 +75,7 @@ export function Header() {
               <motion.span
                 className="absolute inset-0 bg-gradient-to-r from-pink-600 to-orange-500 opacity-0 group-hover:opacity-100 transition-opacity"
               />
-              <span className="relative z-10">Get in touch</span>
+              <span className="relative z-10">Contact</span>
               <ArrowRight className="w-4 h-4 relative z-10 group-hover:translate-x-1 transition-transform" />
             </motion.button>
           </nav>
