@@ -3,23 +3,23 @@ import { motion } from 'motion/react';
 export function CertificatesSection() {
   const certificates = [
     {
-      image: "https://images.unsplash.com/photo-1719257751404-1dea075324bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHByb2Zlc3Npb25hbCUyMGhlYWRzaG90fGVufDF8fHx8MTc3MDE1NzAwM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      title: "Google UX Design Professional Certificate",
-      issuer: "Google",
+      image: "Certificates/HBC.png",
+      title: "Go High-Level Webinar Completion",
+      issuer: "Home Base Connect",
       year: "2024",
-      color: "from-blue-500 to-cyan-500"
+      color: "from-blue-500 via-cyan-500 to-teal-500"
     },
     {
-      image: "https://images.unsplash.com/photo-1719257751404-1dea075324bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHByb2Zlc3Npb25hbCUyMGhlYWRzaG90fGVufDF8fHx8MTc3MDE1NzAwM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      title: "Adobe Certified Expert - Creative Suite",
-      issuer: "Adobe",
-      year: "2023",
-      color: "from-red-500 to-pink-500"
+      image: "Certificates/B2B Appointment setter.png",
+      title: "B2B Appointment Setter Certification",
+      issuer: "Dynamic VA Referral Services",
+      year: "2024",
+      color: "from-teal-500 to-cyan-500"
     },
     {
-      image: "https://images.unsplash.com/photo-1719257751404-1dea075324bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHByb2Zlc3Npb25hbCUyMGhlYWRzaG90fGVufDF8fHx8MTc3MDE1NzAwM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      title: "Design Thinking Certification",
-      issuer: "IDEO U",
+      image: "Certificates/General VA Training.png",
+      title: "General VA Training Program",
+      issuer: "Dynamic VA Referral Services",
       year: "2024",
       color: "from-yellow-500 to-orange-500"
     },
@@ -91,7 +91,7 @@ export function CertificatesSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Continuously learning and recognized for excellence in design
+            Continuously learning and recognized for excellence.
           </motion.p>
         </div>
 

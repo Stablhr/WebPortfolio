@@ -87,7 +87,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              Hey, I'm a
+              Hey, I'm your
             </motion.p>
             <motion.h1 
               className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white leading-[0.9] mb-10 md:mb-16 relative"
@@ -102,7 +102,7 @@ export function HeroSection() {
                   textShadow: "0 0 30px rgba(249, 115, 22, 0.8)"
                 }}
               >
-                Creative
+                Virtual
               </motion.span>
               <br />
               <motion.span
@@ -119,7 +119,7 @@ export function HeroSection() {
                   backgroundSize: '200% auto'
                 }}
               >
-                Director
+                Assistant
               </motion.span>
               
               {/* Decorative line */}
@@ -214,7 +214,7 @@ export function HeroSection() {
               />
               
               <img
-                src="https://images.unsplash.com/photo-1659100947220-48b5d5738148?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMHBsYWNlaG9sZGVyJTIwcGVyc29ufGVufDF8fHx8MTc3MDIxMDkyMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="download-removebg-preview.png"
                 alt="Your Photo"
                 className="w-full h-full object-cover relative z-10 group-hover:scale-110 transition-transform duration-500"
               />
