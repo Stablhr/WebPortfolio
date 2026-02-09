@@ -64,7 +64,7 @@ export function BrandsSection() {
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
             >
-              Trusted by Brands I've
+              I'm familiar with this
             </motion.span>
             <motion.span
               className="block font-bold text-lg text-transparent bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text"
@@ -73,7 +73,7 @@ export function BrandsSection() {
               viewport={{ once: true }}
               transition={{ delay: 0.5 }}
             >
-              Helped Shape
+              Tools
             </motion.span>
             
             {/* Decorative accent */}
